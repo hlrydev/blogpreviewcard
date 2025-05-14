@@ -1,2 +1,56 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+@font-face {
+    font-family: 'Figtree';
+    src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 100 900;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: 'Figtree', sans-serif;
+  font-optical-sizing: auto;
+}
+
+.container{
+    /*Grid center to align items in the middle of the screen*/
+    display: grid;
+    place-items: center;
+    border: 2px solid hsl(0, 0%, 7%);
+    border-radius: 15px;
+    overflow: auto;
+    background-color: white;
+    margin: auto;
+    width: 88vw;
+    max-width: 350px;
+    height: 500px;
+}
+
+.content{
+    width: 100%;
+    text-align: left;
+    margin-left: 45px;
+}
+
+#blogimg{
+    height: 170px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+#tag{
+    background-color:hsl(47, 88%, 63%);
+    border: 8px solid hsl(47, 88%, 63%);
+    border-radius: 5px;
+    display: inline-block;
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
